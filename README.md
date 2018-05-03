@@ -1,3 +1,3 @@
 # installing
-1. Clone the repo into a directory in `client/themes/`.
+1. Clone the repo.
 2. Symlink `sparklecat.css` into `client/themes/`.
