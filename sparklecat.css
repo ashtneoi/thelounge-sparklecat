@@ -6,6 +6,10 @@ body {
 	color: #ccc;
 }
 
+#sidebar {
+	background: #2a3039;
+}
+
 .logo {
 	display: none;
 }
@@ -18,7 +22,7 @@ body {
 #chat .userlist,
 #windows .chan,
 #windows .window {
-	background: #333c4a;
+	background: #20242a;
 }
 
 #chat .userlist .count {
@@ -120,17 +124,22 @@ body {
 	border-color: #333c4a;
 }
 
+#chat .unread-marker::before {
+	border-color: #97ea70;
+}
+
 #chat .unread-marker-text::before {
 	background-color: #333c4a;
+	color: #97ea70;
 }
 
 #chat .date-marker::before {
-	border-color: #97ea70;
+	border-color: #4d96ce;
 }
 
 #chat .date-marker-text::before {
 	background-color: #333c4a;
-	color: #97ea70;
+	color: #aaaaaa;
 }
 
 /* Setup text colors */
